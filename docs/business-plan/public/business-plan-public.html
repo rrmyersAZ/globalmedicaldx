@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Medical Diagnostics — Business Plan</title>
+  <style>
+    @page {
+      size: Letter;
+      margin: 0.7in 0.75in 0.75in 0.75in;
+    }
+
+    :root {
+      --ink: #1a2332;
+      --muted: #4a5568;
+      --line: #d0d7e2;
+      --accent: #0b4f6c;
+      --soft: #f4f7fa;
+      --green: #1e5c3a;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      font-size: 10.5pt;
+      line-height: 1.45;
+      background: #fff;
+    }
+
+    .cover {
+      border-bottom: 4px solid var(--accent);
+      padding-bottom: 18px;
+      margin-bottom: 22px;
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      font-size: 9pt;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin: 0 0 8px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 22pt;
+      line-height: 1.15;
+      color: var(--ink);
+      font-weight: 700;
+    }
+
+    .subtitle {
+      margin: 0 0 14px;
+      font-size: 12pt;
+      color: var(--muted);
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 18px;
+      color: var(--muted);
+      font-size: 9.5pt;
+    }
+
+    .meta strong { color: var(--ink); }
+
+    h2 {
+      margin: 22px 0 8px;
+      padding-bottom: 4px;
+      border-bottom: 1.5px solid var(--line);
+      font-size: 13pt;
+      color: var(--accent);
+      page-break-after: avoid;
+    }
+
+    h3 {
+      margin: 14px 0 6px;
+      font-size: 11pt;
+      color: var(--ink);
+      page-break-after: avoid;
+    }
+
+    p, li { margin: 0 0 6px; }
+
+    ul, ol {
+      margin: 0 0 8px;
+      padding-left: 1.2em;
+    }
+
+    .lead {
+      background: var(--soft);
+      border-left: 4px solid var(--accent);
+      padding: 10px 12px;
+      margin: 0 0 12px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px 18px;
+    }
+
+    .card {
+      background: var(--soft);
+      padding: 10px 12px;
+      border-radius: 4px;
+    }
+
+    .card strong {
+      display: block;
+      margin-bottom: 2px;
+      color: var(--accent);
+      font-size: 9pt;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0 12px;
+      font-size: 9.5pt;
+      page-break-inside: avoid;
+    }
+
+    th, td {
+      border: 1px solid var(--line);
+      padding: 6px 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: var(--accent);
+      color: #fff;
+      font-weight: 600;
+    }
+
+    td.num, th.num { text-align: right; white-space: nowrap; }
+
+    tr:nth-child(even) td { background: #fafbfc; }
+
+    tr.total td {
+      background: #e8f1f6;
+      font-weight: 700;
+    }
+
+    tr.net td {
+      background: #e8f6ee;
+      font-weight: 700;
+      color: var(--green);
+    }
+
+    .note {
+      font-size: 9pt;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    .footer {
+      margin-top: 28px;
+      padding-top: 10px;
+      border-top: 1px solid var(--line);
+      font-size: 8.5pt;
+      color: var(--muted);
+    }
+
+    .contact-bar {
+      margin-top: 10px;
+      padding: 10px 12px;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 4px;
+    }
+
+    .contact-bar a { color: #fff; }
+
+    @media print {
+      body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      h2 { break-after: avoid; }
+      table, .card, .lead { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <header class="cover">
+    <p class="eyebrow">Business Plan</p>
+    <h1>Global Medical Diagnostics</h1>
+    <p class="subtitle">Mobile Clinical Cardiopulmonary Exercise Testing (CPET)</p>
+    <div class="meta">
+      <span><strong>Service area:</strong> Southern California &amp; Arizona</span>
+      <span><strong>Metros:</strong> Los Angeles · Orange County · San Diego · Phoenix · Tucson</span>
+      <span><strong>Status:</strong> Operating</span>
+      <span><strong>Updated:</strong> August 2026</span>
+    </div>
+    <div class="contact-bar">
+      Referrals &amp; scheduling:
+      (480) 806-9044 · info@globalmedicaldx.com
+    </div>
+  </header>
+
+  <section>
+    <h2>1. Executive Summary</h2>
+    <div class="lead">
+      Global Medical Diagnostics provides mobile, clinical cardiopulmonary exercise testing that measures how the heart, lungs, and muscles work together during exercise—bringing diagnostic-grade CPET to referring practices and patients across Southern California and Arizona.
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <strong>Operating model</strong>
+        Mobile clinical service at partner clinics and approved clinical sites. Clinical use only.
+      </div>
+      <div class="card">
+        <strong>Report turnaround</strong>
+        Structured clinical reports returned to the ordering clinician in 3 days.
+      </div>
+      <div class="card">
+        <strong>Payment options</strong>
+        Insurance billing and $450 cash-pay.
+      </div>
+      <div class="card">
+        <strong>Year 1 target</strong>
+        5,500 tests · $1.375M revenue · ~$522.5K net
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>2. The Opportunity</h2>
+    <p>Unexplained shortness of breath, uncertain surgical risk, and incomplete functional workups are difficult to resolve with resting tests alone. Referring clinicians need objective cardio-pulmonary data without long hospital waits or patient travel burden.</p>
+    <h3>Why current options fall short</h3>
+    <ul>
+      <li>Resting ECG, echo, PFTs, or stress ECG without gas exchange often leave key questions unanswered</li>
+      <li>Hospital-based CPET can mean longer waits and greater travel friction</li>
+      <li>Fixed specialty labs have limited geographic reach across a two-state region</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. Solution</h2>
+    <p>Clinical-only mobile CPET with clear referral intake, on-site supervised testing, insurance or cash-pay options, and structured reports back to the ordering clinician within 3 days.</p>
+    <h3>How it works</h3>
+    <ol>
+      <li>Referral / order intake (indication, screening information, insurance or cash-pay path)</li>
+      <li>Benefits check or cash-pay confirmation ($450), then scheduling at a mobile site</li>
+      <li>On-site supervised graded exercise test with metabolic gas analysis and ECG monitoring</li>
+      <li>Data review, interpretation, and structured clinical report</li>
+      <li>Results returned to the referring provider within 3 days; billing follow-through as applicable</li>
+    </ol>
+    <p><strong>Expected outcome:</strong> Clearer diagnosis or risk stratification, actionable functional metrics (such as VO₂ peak, ventilatory thresholds, and pattern of limitation), and a documentable next step for care.</p>
+  </section>
+
+  <section>
+    <h2>4. Target Customers</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Segment</th>
+          <th>Need</th>
+          <th>Decision trigger</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Cardiologists / pulmonologists</td>
+          <td>Dyspnea differentiation; unexplained limitation workups</td>
+          <td>Need gas-exchange data after incomplete workup</td>
+        </tr>
+        <tr>
+          <td>Surgeons / pre-op clinics</td>
+          <td>Objective functional capacity / risk stratification</td>
+          <td>Upcoming major surgery; borderline risk</td>
+        </tr>
+        <tr>
+          <td>Primary care / internal medicine</td>
+          <td>Next step after normal resting tests</td>
+          <td>Persistent unexplained dyspnea</td>
+        </tr>
+        <tr>
+          <td>Multi-specialty groups / IDNs</td>
+          <td>Nearby diagnostic access without building a full lab</td>
+          <td>Capacity, access, or patient-leakage concerns</td>
+        </tr>
+        <tr>
+          <td>Cardiac / pulmonary rehab programs</td>
+          <td>Baseline and progress metrics</td>
+          <td>Outcome tracking or program expansion</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="note">Positioning is clinical-only. Sports performance / athlete consumer testing is not part of the current offer.</p>
+  </section>
+
+  <section>
+    <h2>5. Services and Pricing</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Service</th>
+          <th>Description</th>
+          <th>Price model</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Clinical CPET (core)</td>
+          <td>Diagnostic CPET with ECG, gas exchange, and clinical report</td>
+          <td>Insurance or $450 cash-pay</td>
+        </tr>
+        <tr>
+          <td>Pre-op / risk-stratification CPET</td>
+          <td>Protocol aligned to surgical risk questions</td>
+          <td>Insurance or cash-pay</td>
+        </tr>
+        <tr>
+          <td>Rehab baseline / follow-up CPET</td>
+          <td>Pre/post functional testing for clinical programs</td>
+          <td>Insurance, cash-pay, or program agreement</td>
+        </tr>
+        <tr>
+          <td>Mobile on-site clinic day</td>
+          <td>Testing block at a partner practice or approved site</td>
+          <td>Per-test billing and/or site scheduling agreement</td>
+        </tr>
+      </tbody>
+    </table>
+    <ul>
+      <li><strong>Cash-pay:</strong> $450 per clinical CPET</li>
+      <li><strong>Insurance:</strong> Eligibility/authorization as required; patient responsibility per plan</li>
+      <li><strong>Planning revenue assumption:</strong> $250 blended collected revenue per test for multi-year projections</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. Market and Differentiation</h2>
+    <div class="grid-2">
+      <div class="card">
+        <strong>Service footprint</strong>
+        Southern California and Arizona, with priority metros in Los Angeles, Orange County, San Diego, Phoenix, and Tucson.
+      </div>
+      <div class="card">
+        <strong>Competitive set</strong>
+        Hospital cardiopulmonary labs, health-system outpatient diagnostics, and fixed independent labs.
+      </div>
+    </div>
+    <h3>Differentiation</h3>
+    <ul>
+      <li>Mobile clinical delivery across five priority metros</li>
+      <li>Clinical-only focus as a trusted diagnostic partner</li>
+      <li>Insurance billing plus published $450 cash-pay option</li>
+      <li>3-day report turnaround</li>
+      <li>Referring-office convenience—testing brought closer to practice and patient</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>7. Go-to-Market</h2>
+    <ul>
+      <li>Provider and patient website (indications, how to refer, prep, metros served)</li>
+      <li>Direct outreach to cardiology, pulmonology, pre-op, and multi-specialty groups</li>
+      <li>Partner clinic “mobile day” scheduling</li>
+      <li>Phone and email intake: (480) 806-9044 · info@globalmedicaldx.com</li>
+      <li>Sample reports, indication one-pagers, and educational outreach</li>
+    </ul>
+    <h3>Messaging pillars</h3>
+    <ol>
+      <li>Clinical CPET where your patients are—mobile in LA, OC, San Diego, Phoenix, and Tucson</li>
+      <li>Reports back in 3 days</li>
+      <li>Insurance billing or $450 cash-pay</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>8. Operations</h2>
+    <p><strong>Workflow:</strong> Order/referral → clinical screening → insurance or cash-pay clearance → schedule mobile site → on-site test → quality review → interpretation → report to ordering clinician within 3 days → billing follow-through</p>
+    <ul>
+      <li><strong>Availability:</strong> By scheduled mobile clinic days in priority metros</li>
+      <li><strong>Core systems:</strong> Mobile metabolic cart, ergometer and/or treadmill, ECG, SpO₂, scheduling/referral intake, secure report delivery, site emergency response plan</li>
+      <li><strong>Quality &amp; safety:</strong> Contraindication screening, supervised testing, calibration logs, HIPAA-compliant records, site suitability criteria</li>
+      <li><strong>Support:</strong> Referring-office coordination by phone/email; patient prep guidance; escalation path for urgent findings</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>9. Financial Plan</h2>
+    <h3>Unit economics (per test)</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Line item</th>
+          <th class="num">Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Blended revenue</td><td class="num">$250</td></tr>
+        <tr><td>Technician payroll</td><td class="num">$30</td></tr>
+        <tr><td>Medical supplies</td><td class="num">$15</td></tr>
+        <tr><td>Interpretation professional fees</td><td class="num">$50</td></tr>
+        <tr><td>Transportation</td><td class="num">$10</td></tr>
+        <tr><td>Reports</td><td class="num">$10</td></tr>
+        <tr><td>Insurance</td><td class="num">$5</td></tr>
+        <tr class="total"><td>Total variable cost</td><td class="num">$120</td></tr>
+        <tr><td>Contribution margin</td><td class="num">$130</td></tr>
+        <tr><td>Fixed overhead (allocated)</td><td class="num">$35</td></tr>
+        <tr class="total"><td>Fully loaded cost</td><td class="num">$155</td></tr>
+        <tr class="net"><td>Net margin per test</td><td class="num">$95 (38%)</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Five-year projection</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th class="num">Tests</th>
+          <th class="num">Revenue</th>
+          <th class="num">Variable</th>
+          <th class="num">Fixed OH</th>
+          <th class="num">Net</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Year 1</td>
+          <td class="num">5,500</td>
+          <td class="num">$1,375,000</td>
+          <td class="num">$660,000</td>
+          <td class="num">$192,500</td>
+          <td class="num">$522,500</td>
+        </tr>
+        <tr>
+          <td>Year 2</td>
+          <td class="num">8,500</td>
+          <td class="num">$2,125,000</td>
+          <td class="num">$1,020,000</td>
+          <td class="num">$297,500</td>
+          <td class="num">$807,500</td>
+        </tr>
+        <tr>
+          <td>Year 3</td>
+          <td class="num">12,000</td>
+          <td class="num">$3,000,000</td>
+          <td class="num">$1,440,000</td>
+          <td class="num">$420,000</td>
+          <td class="num">$1,140,000</td>
+        </tr>
+        <tr>
+          <td>Year 4</td>
+          <td class="num">16,000</td>
+          <td class="num">$4,000,000</td>
+          <td class="num">$1,920,000</td>
+          <td class="num">$560,000</td>
+          <td class="num">$1,520,000</td>
+        </tr>
+        <tr>
+          <td>Year 5</td>
+          <td class="num">20,000</td>
+          <td class="num">$5,000,000</td>
+          <td class="num">$2,400,000</td>
+          <td class="num">$700,000</td>
+          <td class="num">$1,900,000</td>
+        </tr>
+        <tr class="total">
+          <td>5-Year Total</td>
+          <td class="num">62,000</td>
+          <td class="num">$15,500,000</td>
+          <td class="num">$7,440,000</td>
+          <td class="num">$2,170,000</td>
+          <td class="num">$5,895,000</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Year 1 monthly run rate</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th class="num">Annual</th>
+          <th class="num">Monthly</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Tests</td><td class="num">5,500</td><td class="num">~458</td></tr>
+        <tr><td>Revenue</td><td class="num">$1,375,000</td><td class="num">~$114,583</td></tr>
+        <tr><td>Total variable costs</td><td class="num">$660,000</td><td class="num">$55,000</td></tr>
+        <tr><td>Contribution</td><td class="num">$715,000</td><td class="num">~$59,583</td></tr>
+        <tr><td>Fixed overhead</td><td class="num">$192,500</td><td class="num">~$16,042</td></tr>
+        <tr class="net"><td>Net</td><td class="num">$522,500</td><td class="num">~$43,542</td></tr>
+      </tbody>
+    </table>
+    <p class="note">$250 is a blended planning/collections assumption per test and is not the same as the $450 cash-pay list price. Fixed overhead is modeled at $35 per test; if true fixed costs do not scale linearly with volume, later-year net results may be higher.</p>
+  </section>
+
+  <section>
+    <h2>10. Milestones</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Timeframe</th>
+          <th>Milestone</th>
+          <th>Success metric</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>30 days</td>
+          <td>Advance website and referral materials</td>
+          <td>Contact, metros, 3-day turnaround, and $450 cash-pay clearly published</td>
+        </tr>
+        <tr>
+          <td>90 days</td>
+          <td>Deepen referring base in five metros</td>
+          <td>Improved route density; progress toward ~458 tests/month</td>
+        </tr>
+        <tr>
+          <td>12 months</td>
+          <td>Achieve Year 1 commercial plan</td>
+          <td>5,500 tests; $1.375M revenue; ~$522.5K net; 3-day report SLA held</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>11. Risks and Mitigations</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Risk</th>
+          <th>Likelihood</th>
+          <th>Impact</th>
+          <th>Mitigation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Thin routes / high travel time</td>
+          <td>High</td>
+          <td>High</td>
+          <td>Cluster clinic days by metro; minimum-volume site rules</td>
+        </tr>
+        <tr>
+          <td>Collections below $250 blended plan</td>
+          <td>High</td>
+          <td>High</td>
+          <td>Authorization discipline, denial reduction, cash-pay mix management</td>
+        </tr>
+        <tr>
+          <td>Capacity lag vs volume ramp</td>
+          <td>Medium</td>
+          <td>High</td>
+          <td>Hire/equipment plan tied to quarterly test counts</td>
+        </tr>
+        <tr>
+          <td>Partner site not test-ready</td>
+          <td>Medium</td>
+          <td>High</td>
+          <td>Written site checklist before booking</td>
+        </tr>
+        <tr>
+          <td>Equipment failure on the road</td>
+          <td>Medium</td>
+          <td>High</td>
+          <td>Service plan, spare critical parts, backup reschedule protocol</td>
+        </tr>
+        <tr>
+          <td>Report turnaround beyond 3 days</td>
+          <td>Medium</td>
+          <td>Medium</td>
+          <td>Queue tracking; interpreter backup coverage</td>
+        </tr>
+        <tr>
+          <td>Clinical incident off main campus</td>
+          <td>Low</td>
+          <td>Very high</td>
+          <td>Screening, trained team, site emergency plan, insurance</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <footer class="footer">
+    <p><strong>Global Medical Diagnostics</strong> · Mobile Clinical CPET · Southern California &amp; Arizona</p>
+    <p>(480) 806-9044 · info@globalmedicaldx.com</p>
+    <p>This document is provided for informational and business-planning purposes. It is not legal, tax, billing, or clinical advice. Financial figures are planning projections based on stated assumptions and are not guarantees of future results.</p>
+  </footer>
+</body>
+</html>

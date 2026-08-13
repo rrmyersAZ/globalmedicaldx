@@ -1,0 +1,465 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Title>Global Medical Diagnostics 5-Year Plan</Title>
+  <Author>Global Medical Diagnostics</Author>
+  <Created>2026-08-01T00:00:00Z</Created>
+ </DocumentProperties>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Font ss:FontName="Calibri" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="Header">
+   <Font ss:FontName="Calibri" ss:Size="14" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="SubHeader">
+   <Font ss:FontName="Calibri" ss:Size="12" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="ColHeader">
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Bold="1" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#1F4E79" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="Currency">
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="CurrencyDec">
+   <NumberFormat ss:Format="&quot;$&quot;#,##0.00"/>
+  </Style>
+  <Style ss:ID="Number">
+   <NumberFormat ss:Format="#,##0"/>
+  </Style>
+  <Style ss:ID="Pct">
+   <NumberFormat ss:Format="0%"/>
+  </Style>
+  <Style ss:ID="Total">
+   <Font ss:Bold="1"/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+   <Interior ss:Color="#D6EAF8" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="TotalNum">
+   <Font ss:Bold="1"/>
+   <NumberFormat ss:Format="#,##0"/>
+   <Interior ss:Color="#D6EAF8" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="Net">
+   <Font ss:Bold="1"/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+   <Interior ss:Color="#D5F5E3" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+
+ <Worksheet ss:Name="Summary">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="20">
+   <Column ss:Width="90"/>
+   <Column ss:Width="90"/>
+   <Column ss:Width="110"/>
+   <Column ss:Width="120"/>
+   <Column ss:Width="120"/>
+   <Column ss:Width="110"/>
+   <Column ss:Width="110"/>
+   <Column ss:Width="100"/>
+   <Row>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Global Medical Diagnostics — 5-Year Financial Plan</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mobile clinical CPET | Southern California &amp; Arizona | Updated 2026-08-01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">(480) 806-9044 | info@globalmedicaldx.com</Data></Cell>
+   </Row>
+   <Row/>
+   <Row>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Year</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Tests</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Revenue</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Variable Costs</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Fixed Overhead</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Total Costs</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Net</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Net Margin %</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Year 1</Data></Cell>
+    <Cell ss:StyleID="Number"><Data ss:Type="Number">5500</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">1375000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">660000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">192500</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">852500</Data></Cell>
+    <Cell ss:StyleID="Net"><Data ss:Type="Number">522500</Data></Cell>
+    <Cell><Data ss:Type="String">38%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Year 2</Data></Cell>
+    <Cell ss:StyleID="Number"><Data ss:Type="Number">8500</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">2125000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">1020000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">297500</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">1317500</Data></Cell>
+    <Cell ss:StyleID="Net"><Data ss:Type="Number">807500</Data></Cell>
+    <Cell><Data ss:Type="String">38%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Year 3</Data></Cell>
+    <Cell ss:StyleID="Number"><Data ss:Type="Number">12000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">3000000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">1440000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">420000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">1860000</Data></Cell>
+    <Cell ss:StyleID="Net"><Data ss:Type="Number">1140000</Data></Cell>
+    <Cell><Data ss:Type="String">38%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Year 4</Data></Cell>
+    <Cell ss:StyleID="Number"><Data ss:Type="Number">16000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">4000000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">1920000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">560000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">2480000</Data></Cell>
+    <Cell ss:StyleID="Net"><Data ss:Type="Number">1520000</Data></Cell>
+    <Cell><Data ss:Type="String">38%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Year 5</Data></Cell>
+    <Cell ss:StyleID="Number"><Data ss:Type="Number">20000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">5000000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">2400000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">700000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">3100000</Data></Cell>
+    <Cell ss:StyleID="Net"><Data ss:Type="Number">1900000</Data></Cell>
+    <Cell><Data ss:Type="String">38%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="TotalNum"><Data ss:Type="String">5-Year Total</Data></Cell>
+    <Cell ss:StyleID="TotalNum"><Data ss:Type="Number">62000</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">15500000</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">7440000</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">2170000</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">9610000</Data></Cell>
+    <Cell ss:StyleID="Net"><Data ss:Type="Number">5895000</Data></Cell>
+    <Cell ss:StyleID="TotalNum"><Data ss:Type="String">38%</Data></Cell>
+   </Row>
+   <Row/>
+   <Row>
+    <Cell ss:StyleID="SubHeader"><Data ss:Type="String">Priority metros</Data></Cell>
+    <Cell ss:MergeAcross="4"><Data ss:Type="String">Los Angeles, Orange County, San Diego, Phoenix, Tucson</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="SubHeader"><Data ss:Type="String">Payment</Data></Cell>
+    <Cell ss:MergeAcross="4"><Data ss:Type="String">Insurance billing and $450 cash-pay; plan uses $250 blended revenue per test</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+
+ <Worksheet ss:Name="Unit Economics">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="20">
+   <Column ss:Width="260"/>
+   <Column ss:Width="100"/>
+   <Column ss:Width="220"/>
+   <Row>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Per-Test Unit Economics</Data></Cell>
+   </Row>
+   <Row/>
+   <Row>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Line item</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">$/test</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Category</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Blended revenue</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">250</Data></Cell>
+    <Cell><Data ss:Type="String">Revenue</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Technician payroll</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">Variable</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Medical supplies</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">Variable</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Interpretation professional fees</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">Variable</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Transportation</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">Variable</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Reports</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">Variable</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Insurance</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">Variable</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Total"><Data ss:Type="String">Total variable cost</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="TotalNum"><Data ss:Type="String">Variable</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Contribution margin</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">130</Data></Cell>
+    <Cell><Data ss:Type="String">$250 − $120</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Fixed overhead</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">Allocated fixed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Total"><Data ss:Type="String">Fully loaded cost</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">155</Data></Cell>
+    <Cell ss:StyleID="TotalNum"><Data ss:Type="String">$120 + $35</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Net"><Data ss:Type="String">Net margin per test</Data></Cell>
+    <Cell ss:StyleID="Net"><Data ss:Type="Number">95</Data></Cell>
+    <Cell ss:StyleID="TotalNum"><Data ss:Type="String">38% of revenue</Data></Cell>
+   </Row>
+   <Row/>
+   <Row>
+    <Cell><Data ss:Type="String">Cash-pay list price (when used)</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">450</Data></Cell>
+    <Cell><Data ss:Type="String">Not used as blended plan revenue</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+
+ <Worksheet ss:Name="Year 1 Detail">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="20">
+   <Column ss:Width="260"/>
+   <Column ss:Width="120"/>
+   <Column ss:Width="120"/>
+   <Row>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Year 1 Detail (5,500 tests)</Data></Cell>
+   </Row>
+   <Row/>
+   <Row>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Item</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Annual</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Monthly</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Tests</Data></Cell>
+    <Cell ss:StyleID="Number"><Data ss:Type="Number">5500</Data></Cell>
+    <Cell ss:StyleID="Number"><Data ss:Type="Number">458</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Revenue</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">1375000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">114583</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Technician payroll</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">165000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">13750</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Medical supplies</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">82500</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">6875</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Interpretation professional fees</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">275000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">22917</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Transportation</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">55000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">4583</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Reports</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">55000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">4583</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Insurance</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">27500</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">2292</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Total"><Data ss:Type="String">Total variable costs</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">660000</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">55000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Contribution</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">715000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">59583</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Fixed overhead</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">192500</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">16042</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Net"><Data ss:Type="String">Net</Data></Cell>
+    <Cell ss:StyleID="Net"><Data ss:Type="Number">522500</Data></Cell>
+    <Cell ss:StyleID="Net"><Data ss:Type="Number">43542</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+
+ <Worksheet ss:Name="Cost by Year">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="16">
+   <Column ss:Width="260"/>
+   <Column ss:Width="70"/>
+   <Column ss:Width="100"/>
+   <Column ss:Width="100"/>
+   <Column ss:Width="100"/>
+   <Column ss:Width="100"/>
+   <Column ss:Width="100"/>
+   <Row>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Cost Stack by Year</Data></Cell>
+   </Row>
+   <Row/>
+   <Row>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Cost item</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">$/test</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Year 1</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Year 2</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Year 3</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Year 4</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Year 5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Technician payroll</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">165000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">255000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">360000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">480000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">600000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Medical supplies</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">82500</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">127500</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">180000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">240000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">300000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Interpretation professional fees</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">275000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">425000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">600000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">800000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">1000000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Transportation</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">55000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">85000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">120000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">160000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">200000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Reports</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">55000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">85000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">120000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">160000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">200000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Insurance</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">27500</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">42500</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">60000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">80000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">100000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Total"><Data ss:Type="String">Total variable</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">660000</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">1020000</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">1440000</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">1920000</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">2400000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Fixed overhead</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">192500</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">297500</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">420000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">560000</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">700000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Total"><Data ss:Type="String">Total costs</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">155</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">852500</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">1317500</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">1860000</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">2480000</Data></Cell>
+    <Cell ss:StyleID="Total"><Data ss:Type="Number">3100000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Net"><Data ss:Type="String">Net</Data></Cell>
+    <Cell ss:StyleID="Net"><Data ss:Type="Number">95</Data></Cell>
+    <Cell ss:StyleID="Net"><Data ss:Type="Number">522500</Data></Cell>
+    <Cell ss:StyleID="Net"><Data ss:Type="Number">807500</Data></Cell>
+    <Cell ss:StyleID="Net"><Data ss:Type="Number">1140000</Data></Cell>
+    <Cell ss:StyleID="Net"><Data ss:Type="Number">1520000</Data></Cell>
+    <Cell ss:StyleID="Net"><Data ss:Type="Number">1900000</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+
+ <Worksheet ss:Name="Assumptions">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="20">
+   <Column ss:Width="220"/>
+   <Column ss:Width="480"/>
+   <Row>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Plan Assumptions</Data></Cell>
+   </Row>
+   <Row/>
+   <Row>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Item</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Value</Data></Cell>
+   </Row>
+   <Row><Cell><Data ss:Type="String">Business</Data></Cell><Cell><Data ss:Type="String">Global Medical Diagnostics</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="String">Stage</Data></Cell><Cell><Data ss:Type="String">Already operating</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="String">Model</Data></Cell><Cell><Data ss:Type="String">Mobile, clinical-only CPET</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="String">Service metros</Data></Cell><Cell><Data ss:Type="String">Los Angeles, Orange County, San Diego, Phoenix, Tucson</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="String">Phone</Data></Cell><Cell><Data ss:Type="String">(480) 806-9044</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="String">Email</Data></Cell><Cell><Data ss:Type="String">info@globalmedicaldx.com</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="String">Report turnaround</Data></Cell><Cell><Data ss:Type="String">3 days</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="String">Cash-pay price</Data></Cell><Cell><Data ss:Type="String">$450 per test</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="String">Blended revenue / test</Data></Cell><Cell><Data ss:Type="String">$250 (planning/collections assumption)</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="String">Variable cost / test</Data></Cell><Cell><Data ss:Type="String">$120</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="String">Fixed overhead / test</Data></Cell><Cell><Data ss:Type="String">$35</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="String">Fully loaded cost / test</Data></Cell><Cell><Data ss:Type="String">$155</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="String">Net / test</Data></Cell><Cell><Data ss:Type="String">$95 (38%)</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="String">Website</Data></Cell><Cell><Data ss:Type="String">Under construction</Data></Cell></Row>
+   <Row/>
+   <Row>
+    <Cell ss:MergeAcross="1"><Data ss:Type="String">Note: If true fixed costs do not rise linearly with volume, Years 2–5 net may exceed these projections.</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

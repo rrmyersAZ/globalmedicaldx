@@ -1,0 +1,67 @@
+Global Medical Diagnostics — 5-Year Financial Plan
+Last updated,2026-08-01
+Contact,(480) 806-9044
+Email,info@globalmedicaldx.com
+Service area,"Los Angeles, Orange County, San Diego, Phoenix, Tucson"
+Model,Mobile clinical CPET
+Cash-pay price,450
+Blended revenue per test,250
+Report turnaround,3 days
+Website status,Under construction
+
+SECTION,Unit Economics ($ per test)
+Line item,Amount
+Blended revenue,250
+Technician payroll,30
+Medical supplies,15
+Interpretation professional fees,50
+Transportation,10
+Reports,10
+Insurance,5
+Total variable cost,120
+Contribution margin,130
+Fixed overhead,35
+Total fully loaded cost,155
+Net margin per test,95
+Net margin %,38%
+
+SECTION,5-Year Summary
+Year,Tests,Revenue,Variable Costs,Fixed Overhead,Total Costs,Net,Net Margin %
+Year 1,5500,1375000,660000,192500,852500,522500,38%
+Year 2,8500,2125000,1020000,297500,1317500,807500,38%
+Year 3,12000,3000000,1440000,420000,1860000,1140000,38%
+Year 4,16000,4000000,1920000,560000,2480000,1520000,38%
+Year 5,20000,5000000,2400000,700000,3100000,1900000,38%
+5-Year Total,62000,15500000,7440000,2170000,9610000,5895000,38%
+
+SECTION,Year 1 Monthly Run Rate
+Metric,Annual,Monthly
+Tests,5500,458
+Revenue,1375000,114583
+Technician payroll,165000,13750
+Medical supplies,82500,6875
+Interpretation professional fees,275000,22917
+Transportation,55000,4583
+Reports,55000,4583
+Insurance,27500,2292
+Total variable costs,660000,55000
+Contribution,715000,59583
+Fixed overhead,192500,16042
+Net,522500,43542
+
+SECTION,Cost Stack Detail by Year
+Cost item,$/test,Year 1,Year 2,Year 3,Year 4,Year 5
+Technician payroll,30,165000,255000,360000,480000,600000
+Medical supplies,15,82500,127500,180000,240000,300000
+Interpretation professional fees,50,275000,425000,600000,800000,1000000
+Transportation,10,55000,85000,120000,160000,200000
+Reports,10,55000,85000,120000,160000,200000
+Insurance,5,27500,42500,60000,80000,100000
+Total variable,120,660000,1020000,1440000,1920000,2400000
+Fixed overhead,35,192500,297500,420000,560000,700000
+Total costs,155,852500,1317500,1860000,2480000,3100000
+
+SECTION,Notes
+Note,Blended revenue of $250/test is the planning collection assumption; cash-pay list price is $450 when used.
+Note,Fixed overhead is modeled at $35 per test; if true fixed costs do not scale linearly with volume; later-year net may be higher.
+Note,Figures are planning targets for an operating mobile clinical CPET business; not a formal audit or tax statement.
