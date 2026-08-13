@@ -3,7 +3,8 @@
 Marketing site for mobile clinical cardiopulmonary exercise testing (CPET).
 
 **Live domain:** [globalmedicaldx.com](https://globalmedicaldx.com)  
-**Email:** info@globalmedicaldx.com · **Phone:** (480) 806-9044
+**Email:** info@globalmedicaldx.com · **Phone:** (480) 806-9044  
+**Repo:** [github.com/rrmyersAZ/globalmedicaldx](https://github.com/rrmyersAZ/globalmedicaldx)
 
 ## Run locally
 
@@ -21,3 +22,7 @@ Start-Process "C:\dev\globalmedicaldx\index.html"
 - `patients.html` — Patient Prep / FAQ
 - `about.html` — About
 - `contact.html` — Contact / referral form
+
+## Deploy
+
+See [docs/DEPLOY-CLOUDFLARE.md](docs/DEPLOY-CLOUDFLARE.md).
