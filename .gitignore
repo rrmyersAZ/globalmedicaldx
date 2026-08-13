@@ -1,3 +1,6 @@
+# Cloudflare / Wrangler
+.wrangler/
+
 # OS
 Thumbs.db
 Desktop.ini
