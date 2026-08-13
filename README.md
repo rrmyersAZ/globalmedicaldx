@@ -10,7 +10,7 @@ Marketing site for mobile clinical cardiopulmonary exercise testing (CPET).
 Open `index.html` in a browser.
 
 ```powershell
-Start-Process "C:\dev\CardiopulmonaryExerciseTesting\index.html"
+Start-Process "C:\dev\globalmedicaldx\index.html"
 ```
 
 ## Site pages
