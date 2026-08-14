@@ -83,10 +83,8 @@ a:hover {
   z-index: 100;
   isolation: isolate;
   overflow: visible;
-  background: transparent;
+  background: var(--surface);
   border-bottom: 1px solid rgba(200, 213, 224, 0.75);
-  transform: translateY(-100%);
-  animation: headerIn 0.7s var(--ease) 0.1s forwards;
 }
 
 .site-header::before {
