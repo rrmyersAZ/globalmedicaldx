@@ -8,11 +8,22 @@ Marketing site for mobile clinical cardiopulmonary exercise testing (CPET).
 
 ## Run locally
 
-Open `index.html` in a browser.
+Static pages only:
 
 ```powershell
 Start-Process "C:\dev\globalmedicaldx\index.html"
 ```
+
+Site plus the referral/email functions (needs Wrangler + `.dev.vars`):
+
+```bash
+npm install
+npm run dev
+```
+
+Then open http://127.0.0.1:8788/
+
+Email setup: [docs/EMAIL-RESEND.md](docs/EMAIL-RESEND.md).
 
 ## Site pages
 

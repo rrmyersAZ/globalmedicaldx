@@ -41,6 +41,6 @@ Optional: connect GitHub for auto-deploy later (**Workers & Pages** → project 
 - Confirm phone / `info@globalmedicaldx.com` / referral form
 - Future updates: `wrangler pages deploy` (or Git push once connected)
 
-## Email note
+## Email
 
-The contact form uses `mailto:info@globalmedicaldx.com`. Make sure that mailbox exists at your email host for the domain.
+`info@globalmedicaldx.com` is wired through Resend and forwarded to `globalmedicaldx@yahoo.com`. See [EMAIL-RESEND.md](EMAIL-RESEND.md).

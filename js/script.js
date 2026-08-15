@@ -23,6 +23,7 @@
 
   var errorEl = document.getElementById("form-error");
   var successEl = document.getElementById("form-success");
+  var submitBtn = form.querySelector('button[type="submit"]');
 
   form.addEventListener("submit", function (event) {
     event.preventDefault();
@@ -30,21 +31,13 @@
     if (errorEl) errorEl.classList.remove("visible");
     if (successEl) successEl.classList.remove("visible");
 
-    var name = (form.elements.namedItem("name") || {}).value || "";
-    var phone = (form.elements.namedItem("phone") || {}).value || "";
-    var email = (form.elements.namedItem("email") || {}).value || "";
-    var indication = (form.elements.namedItem("indication") || {}).value || "";
-    var payment = (form.elements.namedItem("payment") || {}).value || "";
-    var demographics = (form.elements.namedItem("demographics") || {}).value || "";
-    var history = (form.elements.namedItem("history") || {}).value || "";
-
-    name = name.trim();
-    phone = phone.trim();
-    email = email.trim();
-    indication = indication.trim();
-    payment = payment.trim();
-    demographics = demographics.trim();
-    history = history.trim();
+    var name = ((form.elements.namedItem("name") || {}).value || "").trim();
+    var phone = ((form.elements.namedItem("phone") || {}).value || "").trim();
+    var email = ((form.elements.namedItem("email") || {}).value || "").trim();
+    var indication = ((form.elements.namedItem("indication") || {}).value || "").trim();
+    var payment = ((form.elements.namedItem("payment") || {}).value || "").trim();
+    var demographics = ((form.elements.namedItem("demographics") || {}).value || "").trim();
+    var history = ((form.elements.namedItem("history") || {}).value || "").trim();
 
     if (!name || !phone || !indication || !payment) {
       if (errorEl) {
@@ -55,30 +48,35 @@
       return;
     }
 
-    var body = [
-      "Referral / appointment request from the Global Medical Diagnostics website.",
-      "",
-      "Name: " + name,
-      "Phone: " + phone,
-      "Email: " + (email || "Not provided"),
-      "Clinical indication: " + indication,
-      "Payment preference: " + payment,
-      "Demographics / patient notes: " + (demographics || "Not provided"),
-      "Relevant history: " + (history || "Not provided"),
-    ].join("\n");
+    if (submitBtn) submitBtn.disabled = true;
 
-    var subject = encodeURIComponent("CPET referral — " + name);
-    var mailtoBody = encodeURIComponent(body);
-    var mailto =
-      "mailto:info@globalmedicaldx.com?subject=" +
-      subject +
-      "&body=" +
-      mailtoBody;
-
-    window.location.href = mailto;
-
-    if (successEl) {
-      successEl.classList.add("visible");
-    }
+    fetch("/api/referral", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: name,
+        phone: phone,
+        email: email,
+        indication: indication,
+        payment: payment,
+        demographics: demographics,
+        history: history,
+      }),
+    })
+      .then(function (response) {
+        if (!response.ok) throw new Error("send_failed");
+        if (successEl) successEl.classList.add("visible");
+        form.reset();
+      })
+      .catch(function () {
+        if (errorEl) {
+          errorEl.textContent =
+            "We could not send the referral. Please call (480) 806-9044 or email info@globalmedicaldx.com.";
+          errorEl.classList.add("visible");
+        }
+      })
+      .then(function () {
+        if (submitBtn) submitBtn.disabled = false;
+      });
   });
 })();
