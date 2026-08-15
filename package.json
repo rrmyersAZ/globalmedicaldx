@@ -1,0 +1,10 @@
+{
+  "name": "globalmedicaldx",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler pages dev . --ip 127.0.0.1 --port 8788"
+  },
+  "devDependencies": {
+    "wrangler": "^4.32.0"
+  }
+}

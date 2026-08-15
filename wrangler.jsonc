@@ -1,0 +1,9 @@
+{
+  "name": "globalmedicaldx",
+  "compatibility_date": "2026-08-14",
+  "pages_build_output_dir": ".",
+  "vars": {
+    "FROM_EMAIL": "Global Medical Diagnostics <info@globalmedicaldx.com>",
+    "INBOX_FORWARD_TO": "globalmedicaldx@yahoo.com"
+  }
+}

@@ -1,5 +1,7 @@
 # Cloudflare / Wrangler
 .wrangler/
+.dev.vars
+node_modules/
 
 # OS
 Thumbs.db
